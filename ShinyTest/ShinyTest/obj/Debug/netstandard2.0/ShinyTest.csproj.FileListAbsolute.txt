@@ -1,0 +1,15 @@
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\bin\Debug\netstandard2.0\ShinyTest.deps.json
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\bin\Debug\netstandard2.0\ShinyTest.dll
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\bin\Debug\netstandard2.0\ref\ShinyTest.dll
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\bin\Debug\netstandard2.0\ShinyTest.pdb
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\ShinyTest.csproj.AssemblyReference.cache
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\ShinyTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\ShinyTest.AssemblyInfoInputs.cache
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\ShinyTest.AssemblyInfo.cs
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\ShinyTest.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\ShinyTest.dll
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\ref\ShinyTest.dll
+C:\Users\Bruno\source\repos\ShinyTest\ShinyTest\ShinyTest\obj\Debug\netstandard2.0\ShinyTest.pdb
