@@ -3,10 +3,10 @@ using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
 
-//[assembly: Shiny.ShinyApplication(
-//    ShinyStartupTypeName = "ShinyTest.ShinyConfig.ShinyStart",
-//    XamarinFormsAppTypeName = "ShinyTest.App"
-//)]
+[assembly: Shiny.ShinyApplication(
+    ShinyStartupTypeName = "ShinyTest.ShinyConfig.ShinyStart",
+    XamarinFormsAppTypeName = "ShinyTest.App"
+)]
 
 
 namespace ShinyTest.Droid
@@ -26,6 +26,7 @@ namespace ShinyTest.Droid
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
+            
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);

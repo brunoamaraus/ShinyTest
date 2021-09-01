@@ -13,7 +13,6 @@ public class MonoPackageManager_Resources {
 		"Newtonsoft.Json.dll",
 		"Shiny.Core.dll",
 		"Shiny.dll",
-		"Shiny.Jobs.dll",
 		"ShinyTest.dll",
 		"System.Diagnostics.DiagnosticSource.dll",
 		"System.Reactive.dll",

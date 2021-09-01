@@ -48,13 +48,9 @@
               "target": "Package",
               "version": "[2.2.0.2829, )"
             },
-            "Shiny.Jobs": {
-              "target": "Package",
-              "version": "[2.3.0.2855-preview, )"
-            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
@@ -118,7 +114,7 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

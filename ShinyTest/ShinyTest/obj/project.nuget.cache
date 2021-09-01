@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wPnpKQj4QuHECH8P4cycXlLj77ifxO5rwDXCgDgtHK90JthTmrPtaR3Dt8d1Awb4Zw4XnAhBtKvj3YaYKxB15g==",
+  "dgSpecHash": "4MMnuSoQIoXfWM7WnfLvbtYRPjIwkr55eiwngnuoFrxk0kBU51Rkb3+bqdyJvjpLKKH5WUmdoHUKrolnHH3SUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bruno\\source\\repos\\ShinyTest\\ShinyTest\\ShinyTest\\ShinyTest.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,7 @@
     "C:\\Users\\Bruno\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []

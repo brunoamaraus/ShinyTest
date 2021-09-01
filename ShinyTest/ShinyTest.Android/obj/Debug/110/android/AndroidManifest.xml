@@ -14,7 +14,7 @@
   <uses-permission android:name="android.permission.WAKE_LOCK" />
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
   <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-  <application android:name="android.app.Application" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="ShinyTest.Android" android:theme="@style/MainTheme">
+  <application android:name="crc644f362969ab8fe86e.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/icon" android:label="ShinyTest.Android" android:theme="@style/MainTheme">
     <activity android:name="crc644f362969ab8fe86e.MainActivity" android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="ShinyTest" android:theme="@style/MainTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,6 @@
     <activity android:name="crc64a0e0a82d0db9a07d.WebAuthenticatorIntermediateActivity" android:configChanges="orientation|screenSize" />
     <receiver android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" android:enabled="true" android:exported="false" />
     <provider android:name="mono.MonoRuntimeProvider" android:authorities="com.companyname.shinytest.mono.MonoRuntimeProvider.__mono_init__" android:exported="false" android:initOrder="1999999999" />
-    <service android:name="androidx.room.MultiInstanceInvalidationService" android:directBootAware="true" android:exported="false" />
     <provider android:name="androidx.work.impl.WorkManagerInitializer" android:authorities="com.companyname.shinytest.workmanager-init" android:directBootAware="false" android:exported="false" android:multiprocess="true" tools:targetApi="n" />
     <service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" tools:targetApi="n" />
     <service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:permission="android.permission.BIND_JOB_SERVICE" tools:targetApi="n" />
@@ -79,5 +78,6 @@
       </intent-filter>
     </receiver>
     <provider android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" android:authorities="com.companyname.shinytest.lifecycle-process" android:exported="false" android:multiprocess="true" />
+    <service android:name="androidx.room.MultiInstanceInvalidationService" android:directBootAware="true" android:exported="false" />
   </application>
 </manifest>

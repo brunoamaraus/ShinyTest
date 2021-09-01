@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v11.0": {
-      "Microsoft.Extensions.DependencyInjection/5.0.2": {
+      "Microsoft.Extensions.DependencyInjection/5.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
@@ -99,32 +99,17 @@
           "buildTransitive/netstandard2.0/shiny.targets": {}
         }
       },
-      "Shiny.Core/2.3.0.2855-preview": {
+      "Shiny.Core/2.2.0.2829": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "5.0.2",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
           "Microsoft.Extensions.Logging": "5.0.0",
           "Newtonsoft.Json": "13.0.1",
           "System.Reactive": "5.0.0",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.2",
           "Xamarin.AndroidX.Core": "1.5.0",
           "Xamarin.AndroidX.Lifecycle.Process": "2.3.1",
-          "Xamarin.AndroidX.Lifecycle.Runtime": "2.3.1.1"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid10.0/Shiny.Core.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid10.0/Shiny.Core.dll": {}
-        }
-      },
-      "Shiny.Jobs/2.3.0.2855-preview": {
-        "type": "package",
-        "dependencies": {
-          "Shiny.Core": "2.3.0.2855-preview",
-          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.2",
+          "Xamarin.AndroidX.Lifecycle.Runtime": "2.3.1.1",
           "Xamarin.AndroidX.Room.Common": "2.3.0.1",
           "Xamarin.AndroidX.Room.Runtime": "2.3.0.1",
           "Xamarin.AndroidX.Work.Runtime": "2.5.0.2"
@@ -133,10 +118,10 @@
           "Java.Interop"
         ],
         "compile": {
-          "lib/monoandroid10.0/Shiny.Jobs.dll": {}
+          "lib/monoandroid10.0/Shiny.Core.dll": {}
         },
         "runtime": {
-          "lib/monoandroid10.0/Shiny.Jobs.dll": {}
+          "lib/monoandroid10.0/Shiny.Core.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -365,11 +350,11 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.AsyncLayoutInflater.targets": {}
         }
       },
-      "Xamarin.AndroidX.Browser/1.3.0": {
+      "Xamarin.AndroidX.Browser/1.3.0.5": {
         "type": "package",
         "dependencies": {
-          "Xamarin.AndroidX.Annotation": "1.1.0.7",
-          "Xamarin.AndroidX.Core": "1.3.2",
+          "Xamarin.AndroidX.Annotation": "1.1.0.9",
+          "Xamarin.AndroidX.Core": "1.3.2.3",
           "Xamarin.Google.Guava.ListenableFuture": "1.0.0.2"
         },
         "frameworkAssemblies": [
@@ -382,7 +367,7 @@
           "lib/monoandroid90/Xamarin.AndroidX.Browser.dll": {}
         },
         "build": {
-          "buildTransitive/monoandroid90/Xamarin.AndroidX.Browser.targets": {}
+          "buildTransitive/monoandroid9.0/Xamarin.AndroidX.Browser.targets": {}
         }
       },
       "Xamarin.AndroidX.CardView/1.0.0.6": {
@@ -1231,11 +1216,11 @@
           "buildTransitive/monoandroid9.0/Xamarin.AndroidX.Work.Runtime.targets": {}
         }
       },
-      "Xamarin.Essentials/1.6.1": {
+      "Xamarin.Essentials/1.7.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0",
-          "Xamarin.AndroidX.Browser": "1.3.0"
+          "Xamarin.AndroidX.Browser": "[1.3.0.5, 1.4.0)"
         },
         "frameworkAssemblies": [
           "Java.Interop"
@@ -1323,7 +1308,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Shiny": "2.2.0.2829",
-          "Xamarin.Essentials": "1.6.1",
+          "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -1336,10 +1321,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Extensions.DependencyInjection/5.0.2": {
-      "sha512": "xzFW00AZEvOXM1OX+0+AYH5op/Hf3u//e6wszBd/rK72sypD+jx5CtsHxM4BVuFBEs8SajfO4QzSJtrQaHDr4A==",
+    "Microsoft.Extensions.DependencyInjection/5.0.1": {
+      "sha512": "//mDNrYeiJ0eh/awFhDFJQzkRVra/njU5Y4fyK7X29g5HScrzbUkKOKlyTtygthcGFt4zNC8G5CFCjb/oizomA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/5.0.2",
+      "path": "microsoft.extensions.dependencyinjection/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1354,7 +1339,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -1514,10 +1499,10 @@
         "shiny.nuspec"
       ]
     },
-    "Shiny.Core/2.3.0.2855-preview": {
-      "sha512": "d4mraqcqsh/+ZPJ7TYhlnQMR1IC7tAFjdluKgZjx6lNG/xN8wIeh0IN5HXqBbhFlDbex2AeW9T4WqcNXeTTYRQ==",
+    "Shiny.Core/2.2.0.2829": {
+      "sha512": "T8Mmcn1UiA71hKVBafTmNRYO1moQ1rqDcPpx6crhhxsqqs1c8ver5snnbcOZaK1IzIJgeWCZklKL1gGA8s5tiA==",
       "type": "package",
-      "path": "shiny.core/2.3.0.2855-preview",
+      "path": "shiny.core/2.2.0.2829",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1537,35 +1522,8 @@
         "lib/xamarinios10/Shiny.Core.xml",
         "readme.md",
         "readme.txt",
-        "shiny.core.2.3.0.2855-preview.nupkg.sha512",
+        "shiny.core.2.2.0.2829.nupkg.sha512",
         "shiny.core.nuspec"
-      ]
-    },
-    "Shiny.Jobs/2.3.0.2855-preview": {
-      "sha512": "wBnDLmnfD9WSTCkF0IS60tsDBnUAORodctei/JgFE6xzQSYyqWH5Js1qpHPmyfM59sSTKlEtMxTWX2tX+jw9Iw==",
-      "type": "package",
-      "path": "shiny.jobs/2.3.0.2855-preview",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/monoandroid10.0/Shiny.Jobs.dll",
-        "lib/monoandroid10.0/Shiny.Jobs.pdb",
-        "lib/monoandroid10.0/Shiny.Jobs.xml",
-        "lib/netstandard2.0/Shiny.Jobs.dll",
-        "lib/netstandard2.0/Shiny.Jobs.pdb",
-        "lib/netstandard2.0/Shiny.Jobs.xml",
-        "lib/uap10.0.17763/Shiny.Jobs.dll",
-        "lib/uap10.0.17763/Shiny.Jobs.pdb",
-        "lib/uap10.0.17763/Shiny.Jobs.pri",
-        "lib/uap10.0.17763/Shiny.Jobs.xml",
-        "lib/xamarinios10/Shiny.Jobs.dll",
-        "lib/xamarinios10/Shiny.Jobs.pdb",
-        "lib/xamarinios10/Shiny.Jobs.xml",
-        "readme.md",
-        "readme.txt",
-        "shiny.jobs.2.3.0.2855-preview.nupkg.sha512",
-        "shiny.jobs.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -1970,20 +1928,20 @@
         "xamarin.androidx.asynclayoutinflater.nuspec"
       ]
     },
-    "Xamarin.AndroidX.Browser/1.3.0": {
-      "sha512": "hBnAIIw+nnmuBwzZdPLnalvW5ipx/kWoqlu+bD2lwJW9+Qz15+kdRWpK6BXxCyv60/MOuFSICaU39MlLJ2fG9g==",
+    "Xamarin.AndroidX.Browser/1.3.0.5": {
+      "sha512": "3dH03Bku3D3uJmJWggE8FVYrqYZPTghHKM8F4TKsTpiV03000C0lQQsZQph1f7Zj4ejmet9U+MA4uMAja/TxKg==",
       "type": "package",
-      "path": "xamarin.androidx.browser/1.3.0",
+      "path": "xamarin.androidx.browser/1.3.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "aar/androidx.browser.browser.aar",
-        "build/monoandroid90/Xamarin.AndroidX.Browser.targets",
-        "buildTransitive/monoandroid90/Xamarin.AndroidX.Browser.targets",
+        "build/monoandroid9.0/Xamarin.AndroidX.Browser.targets",
+        "buildTransitive/monoandroid9.0/Xamarin.AndroidX.Browser.targets",
         "lib/monoandroid90/Xamarin.AndroidX.Browser.dll",
         "lib/monoandroid90/Xamarin.AndroidX.Browser.pdb",
-        "xamarin.androidx.browser.1.3.0.nupkg.sha512",
+        "xamarin.androidx.browser.1.3.0.5.nupkg.sha512",
         "xamarin.androidx.browser.nuspec"
       ]
     },
@@ -2764,10 +2722,10 @@
         "xamarin.androidx.work.runtime.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.6.1": {
-      "sha512": "gG1Bp4j4bpJQ0dp9MeBJQJ9c8xULauIlhc7Cx5Qw4J2K1c+4Glq5n+gkb9Pm0UA/CevXVqLK5ZXmZkuYI52FgA==",
+    "Xamarin.Essentials/1.7.0": {
+      "sha512": "xfUJNxtfMC05VBej7fVUg6Zd9VwM2kqW9LH0tcrSA6IsBTl0EsIGkYUOz1BoKT2rseWW8o3kTi5WH/yZV4GgJw==",
       "type": "package",
-      "path": "xamarin.essentials/1.6.1",
+      "path": "xamarin.essentials/1.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2776,15 +2734,6 @@
         "lib/monoandroid10.0/Xamarin.Essentials.dll",
         "lib/monoandroid10.0/Xamarin.Essentials.pdb",
         "lib/monoandroid10.0/Xamarin.Essentials.xml",
-        "lib/monoandroid80/Xamarin.Essentials.dll",
-        "lib/monoandroid80/Xamarin.Essentials.pdb",
-        "lib/monoandroid80/Xamarin.Essentials.xml",
-        "lib/monoandroid81/Xamarin.Essentials.dll",
-        "lib/monoandroid81/Xamarin.Essentials.pdb",
-        "lib/monoandroid81/Xamarin.Essentials.xml",
-        "lib/monoandroid90/Xamarin.Essentials.dll",
-        "lib/monoandroid90/Xamarin.Essentials.pdb",
-        "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -2811,7 +2760,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.6.1.nupkg.sha512",
+        "xamarin.essentials.1.7.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -3075,9 +3024,8 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
       "Shiny >= 2.2.0.2829",
-      "Shiny.Jobs >= 2.3.0.2855-preview",
       "ShinyTest >= 1.0.0",
-      "Xamarin.Essentials >= 1.6.1",
+      "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
   },
@@ -3130,13 +3078,9 @@
             "target": "Package",
             "version": "[2.2.0.2829, )"
           },
-          "Shiny.Jobs": {
-            "target": "Package",
-            "version": "[2.3.0.2855-preview, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.6.1, )"
+            "version": "[1.7.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
