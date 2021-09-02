@@ -11,16 +11,16 @@ namespace ShinyTest.ShinyConfig
         {
             var job = new JobInfo(typeof(FirstJob), "FirstJob", false)
             {
-                RunOnForeground = false,
+                RunOnForeground = true,
                 BatteryNotLow = false,
                 DeviceCharging = false,
                 RequiredInternetAccess = InternetAccess.Any,
                 Repeat = true,
-                PeriodicTime = TimeSpan.FromMinutes(1)
+                PeriodicTime = TimeSpan.FromSeconds(10)
             };
 
             services.RegisterJob(job);
-            services.UseJobForegroundService(TimeSpan.FromMinutes(1));
+            services.UseJobForegroundService(TimeSpan.FromSeconds(10));
         }
     }
 }
