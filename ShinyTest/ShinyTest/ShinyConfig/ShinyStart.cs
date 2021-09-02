@@ -9,7 +9,7 @@ namespace ShinyTest.ShinyConfig
     {
         public override void ConfigureServices(IServiceCollection services, IPlatform platform)
         {
-            var job = new JobInfo(typeof(FirstJob), "FirstJob", false)
+            var job = new JobInfo(typeof(FirstJob), "FirstJob", true)
             {
                 RunOnForeground = true,
                 BatteryNotLow = false,
